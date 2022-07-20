@@ -4,6 +4,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+
+
 }
 
 /*----- first banner css----- */
@@ -197,7 +199,7 @@ body {
 
 /* card end css */
 
-/* upcomming match css */
+/* upcomming match  new file css */
 .match-1 {
     background: #DD0000;
     padding: 17px 39px;
@@ -241,7 +243,95 @@ body {
     gap: 20px;
 }
 
-/* media queary mobile */
+/* up coming match new file css ends */
+
+/* footer section */
+.footer-content {
+
+    padding: 30px 0;
+    background-color: #161616;
+}
+
+.footer-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+
+
+.footer-content h1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 130px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 50px 0;
+}
+
+.footer-content .footer-links,
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.footer-content ul a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+}
+
+.social-icons {
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    padding: 16px;
+    background-color: #fff;
+    color: #161616;
+    border-radius: 50%;
+}
+
+.social-icons i:hover {
+    background-color: darkred;
+    color: #FFFFFF;
+}
+
+/* new buton  */
+.view-all-btn {
+    position: relative;
+    margin: 20px auto;
+    display: none;
+}
+
+.view-all-btn button {
+    padding: 12px 30px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.view-all-btn button:hover {
+    color: #DD0000;
+    background-color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* ---ends--- */
+
+/* media queary mobile start */
 @media only screen and (max-width:575px) {
     .worldcup-poster {
         margin: 0px 10px;
@@ -323,6 +413,7 @@ body {
     /* footer section */
     .footer-content {
         height: 100%;
+        padding: 50px;
     }
 
     .footer-content .footer-links {
@@ -335,6 +426,10 @@ body {
         padding-top: 24px;
         font-weight: 600;
         font-size: 22px;
+    }
+
+    .footer-content ul {
+        background-color: #161616;
     }
 
     .footer-content ul a {
@@ -355,13 +450,18 @@ body {
 
 /* ----media query mobile ends---- */
 
-/* ----talet start---- */
-@media only screen and(min-width:576px) and (max-width:991px) {
+/* ----tablet start---- */
+@media only screen and (min-width:576px) and (max-width:991px) {
 
     /* banner style */
     .worldcup-poster {
         margin: 50px 50px;
-        flex-direction: column;
+
+    }
+
+    .football-banner,
+    .bnr-img {
+        width: 50%;
     }
 
     .football-banner h1 {
@@ -381,7 +481,7 @@ body {
         display: none;
     }
 
-    .bnr-img {
+    .bnr-img img {
         width: 100%;
         margin-bottom: -2%;
     }
@@ -400,7 +500,8 @@ body {
 
     .coming-match1 {
         flex-direction: row;
-        gap: 10px;
+        gap: 50px;
+        margin-left: 50px;
     }
 
     .card-content {
@@ -425,82 +526,4 @@ body {
     }
 }
 
-
-
-
-
-/* footer section */
-
-.footer-content p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #4D4D4D;
-}
-
-.footer-content {
-    height: 444px;
-    background-color: #161616;
-}
-
-.footer-content h1 {
-    font-weight: 600;
-    font-size: 40px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 130px;
-}
-
-hr {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    margin: 50px 0;
-}
-
-.footer-content .footer-links,
-.social-icons {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 48px;
-}
-
-.footer-content ul a {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    color: #B9B9B9;
-}
-
-.social-icons {
-    margin-top: 50px;
-    padding-bottom: 20px;
-}
-
-.social-icons i {
-    font-size: 24px;
-    padding: 16px;
-    background-color: #fff;
-    color: #161616;
-    border-radius: 50%;
-}
-
-.social-icons i:hover {
-    background-color: darkred;
-    color: #FFFFFF;
-}
-
-/* new buton  */
-.view-all-btn {
-    position: relative;
-    margin: 20px auto;
-    display: none;
-}
-
-.view-all-btn button {
-    padding: 12px 30px;
-    background-color: #DD0000;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
-}
+/* tablet ends */
