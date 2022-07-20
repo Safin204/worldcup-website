@@ -12,8 +12,20 @@ body {
     border-radius: 30px;
     width: 100%;
     height: 646px;
+    animation-name: banner;
+    animation-duration: 1s;
     display: flex;
+    cursor: pointer;
+}
 
+@keyframes banner {
+    from {
+        background-color: black;
+    }
+
+    to {
+        background-color: #4D4D4D;
+    }
 
 
 }
@@ -43,13 +55,20 @@ body {
 
     width: 187px;
     height: 56px;
-    background: #DD0000;
+    background-color: #DD0000;
     border-radius: 5px;
     color: white;
-    text-decoration: none;
     padding: 16px 25px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: width 2s;
 
 
+}
+
+.btn-1:hover {
+    width: 200px;
+    background-color: green;
 }
 
 
@@ -64,7 +83,7 @@ body {
 }
 
 .img-size {
-    height: 560px;
+    height: 566px;
 }
 
 .football-width {
@@ -250,7 +269,7 @@ body {
         text-align: center;
     }
 
-    .btn {
+    .btn-1 {
         padding: 8px 12px;
     }
 
@@ -334,6 +353,79 @@ body {
 
 }
 
+/* ----media query mobile ends---- */
+
+/* ----talet start---- */
+@media only screen and(min-width:576px) and (max-width:991px) {
+
+    /* banner style */
+    .worldcup-poster {
+        margin: 50px 50px;
+        flex-direction: column;
+    }
+
+    .football-banner h1 {
+        font-size: 40px;
+    }
+
+    .football-banner p {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .btn-1 {
+        padding: 12px;
+    }
+
+    .football-banner .hide {
+        display: none;
+    }
+
+    .bnr-img {
+        width: 100%;
+        margin-bottom: -2%;
+    }
+
+
+    .full-card {
+        flex-direction: column;
+        margin: 50px 50px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .coming-match {
+        background-color: #fff;
+    }
+
+    .coming-match1 {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .card-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-1 {
+        width: 357px;
+    }
+
+    /* match summary */
+    .match-summary {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .match-schdule1 {
+        width: 312px;
+    }
+
+    .view-all-btn {
+        display: block;
+    }
+}
+
+
 
 
 
@@ -395,4 +487,20 @@ hr {
 .social-icons i:hover {
     background-color: darkred;
     color: #FFFFFF;
+}
+
+/* new buton  */
+.view-all-btn {
+    position: relative;
+    margin: 20px auto;
+    display: none;
+}
+
+.view-all-btn button {
+    padding: 12px 30px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
 }
