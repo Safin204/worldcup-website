@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----- first banner css----- */
+.worldcup-poster {
+    background: #161616;
+    border-radius: 30px;
+    width: 100%;
+    height: 646px;
+    display: flex;
+
+
+
+}
+
+.football-banner {
+    margin-left: 40px;
+}
+
+.football-banner h1 {
+    font-size: 70px;
+    color:
+        #FFFFFF;
+    width: 531px;
+
+
+
+}
+
+.football-banner p {
+    font-size: 16px;
+    color:
+        #FFFFFF;
+
+}
+
+.btn-1 {
+
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 16px 25px;
+
+
+}
+
+
+
+.bnr-img {
+    width: 100%;
+    margin-top: 80px;
+    height: 50%;
+
+
+
+}
+
+.img-size {
+    height: 560px;
+}
+
+.football-width {
+    width: 50%;
+}
+
+/* first banner css */
+/* upcomming match css start */
+.full-card {
+
+    width: 100%;
+    column-gap: 50px;
+    display: flex;
+
+
+}
+
+.coming-match {
+
+    background: #161616;
+    border-radius: 10px;
+    Height: 100%;
+    margin-top: 150px;
+
+}
+
+.coming-match1 {
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.coming-match1 a {
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #161616;
+}
+
+
+
+
+.match {
+    background-color: #fff;
+    padding: 17px 39px;
+    border-radius: 10px;
+
+}
+
+.group {
+    background-color: #fff;
+    padding: 17px 39px;
+    border-radius: 10px;
+
+}
+
+.blog {
+    background-color:
+        #DD0000;
+    border-radius: 10px;
+    padding: 17px 39px;
+
+}
+
+/* upcoming match css ends */
+
+/* card start css */
+
+.card-content {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 130px;
+    column-gap: 24px;
+
+}
+
+
+.card-1 {
+
+    border-radius: 10px 10px 0px 0px;
+    background: whitesmoke;
+    width: 312px;
+    height: 362px;
+    margin: 20px;
+
+
+}
+
+.btn-text {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card-text {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.card-icon {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    column-gap: 30px;
+}
+
+/* card end css */
+
+/* upcomming match css */
+.match-1 {
+    background: #DD0000;
+    padding: 17px 39px;
+    border-radius: 10px;
+}
+
+.group-1 {
+    background: #fff;
+    padding: 17px 39px;
+    border-radius: 10px;
+}
+
+.blog-1 {
+    background: #fff;
+    padding: 17px 39px;
+    border-radius: 10px;
+}
+
+.match-summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 150px;
+
+
+}
+
+.match-schdule1 {
+    width: 312px;
+    height: 242px;
+
+    background-color: whitesmoke;
+    padding: 30px;
+    text-align: center;
+}
+
+.up-match {
+    display: flex;
+    margin: 40px;
+    margin-left: 30px;
+    gap: 20px;
+}
+
+/* media queary mobile */
+@media only screen and (max-width:575px) {
+    .worldcup-poster {
+        margin: 0px 10px;
+        flex-direction: column;
+
+    }
+
+    .football-banner {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .football-banner h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .football-banner p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 8px 12px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .bnr-img {
+        height: 40px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .img-size {
+        height: 400px;
+    }
+
+    .full-card {
+        flex-direction: column;
+    }
+
+    .coming-match {
+        background: white;
+    }
+
+    .match .group .blog {
+        padding: 10px 30px;
+        margin: 0;
+    }
+
+    .card-content {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .card-1 {
+        width: 335px;
+        height: 388.69px;
+    }
+
+    .goal {
+
+        flex-direction: column;
+
+    }
+
+    .text-1 {
+        flex-direction: column;
+    }
+
+    /* footer section */
+    .footer-content {
+        height: 100%;
+    }
+
+    .footer-content .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .footer-content h1 {
+        padding-top: 24px;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .footer-content ul a {
+        font-size: 14px;
+    }
+
+    hr {
+        margin: 24px 0;
+    }
+
+    .social-icons i {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+
+}
+
+
+
+
+/* footer section */
+
+.footer-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+
+.footer-content {
+    height: 444px;
+    background-color: #161616;
+}
+
+.footer-content h1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 130px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 50px 0;
+}
+
+.footer-content .footer-links,
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.footer-content ul a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+}
+
+.social-icons {
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    padding: 16px;
+    background-color: #fff;
+    color: #161616;
+    border-radius: 50%;
+}
+
+.social-icons i:hover {
+    background-color: darkred;
+    color: #FFFFFF;
+}
